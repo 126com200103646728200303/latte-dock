@@ -15,8 +15,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 24.08.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 24.08.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -34,16 +34,16 @@ msgid "Failed to import indicator"
 msgstr "Zlyhalo exportovanie konfigurácie"
 
 #: app/indicator/factory.cpp:273
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "indicator_name, imported updated"
 msgid "%1 indicator updated successfully"
-msgstr "Kompletná konfigurácia úspešne exportovaná"
+msgstr "%1 indikátor úspešne aktualizovaný"
 
 #: app/indicator/factory.cpp:274
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "indicator_name, imported success"
 msgid "%1 indicator installed successfully"
-msgstr "Rozloženie exportované úspešne"
+msgstr "%1 indicator instvšetkýched successfully"
 
 #: app/indicator/factory.cpp:354
 #, kde-format
@@ -51,15 +51,16 @@ msgid "Remove Indicator Confirmation"
 msgstr "Odstrániť Indikátor"
 
 #: app/indicator/factory.cpp:363
-#, fuzzy, kde-format
+#, kde-format
 msgid "Do you want to remove completely <b>%1</b> indicator from your system?"
-msgstr "Chcete odstrániť <b>%0</b> indikátor z vášho systému?"
+msgstr ""
+"Do you want to odstrániť completely <b>%1</b> indikátor z vášho systému?"
 
 #: app/indicator/factory.cpp:373
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "indicator_name, removed success"
 msgid "<b>%1</b> indicator removed successfully"
-msgstr "Kompletná konfigurácia úspešne exportovaná"
+msgstr "<b>%1</b> indicator odstrániťd successfully"
 
 #: app/lattecorona.cpp:1118 app/lattecorona.cpp:1141
 #, kde-format
@@ -810,9 +811,9 @@ msgid "Panel"
 msgstr "Panel"
 
 #: app/settings/exporttemplatedialog/exporttemplatehandler.cpp:78
-#, fuzzy, kde-format
+#, kde-format
 msgid "Export %1 Template"
-msgstr "Exportovať šablónu"
+msgstr "Exportovať %1 šablónu"
 
 #: app/settings/exporttemplatedialog/exporttemplatehandler.cpp:147
 #, kde-format
@@ -861,10 +862,10 @@ msgstr ""
 "b>."
 
 #: app/settings/exporttemplatedialog/exporttemplatehandler.cpp:213
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "settings:template export fail"
 msgid "Template <b>%1</b> export <b>failed</b>..."
-msgstr "Rozloženie: <b>%2</b> úspešne importované<br>"
+msgstr "šablónu <b>%1</b> export <b>failed</b>..."
 
 #: app/settings/exporttemplatedialog/exporttemplatehandler.cpp:222
 #: app/settings/settingsdialog/settingsdialog.cpp:348
@@ -876,10 +877,10 @@ msgid "Open Location..."
 msgstr "Otvoriť umiestnenie..."
 
 #: app/settings/exporttemplatedialog/exporttemplatehandler.cpp:236
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "settings:template export success"
 msgid "Template <b>%1</b> export succeeded..."
-msgstr "Rozloženie: <b>%2</b> úspešne importované<br>"
+msgstr "šablónu <b>%1</b> export succeeded..."
 
 #: app/settings/exporttemplatedialog/exporttemplatehandler.cpp:298
 #, kde-format
@@ -1068,10 +1069,10 @@ msgstr[1] "Rozloženie: <b>%2</b> úspešne importované<br>"
 msgstr[2] "Rozloženie: <b>%2</b> úspešne importované<br>"
 
 #: app/settings/settingsdialog/layoutscontroller.cpp:1097
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "settings: layout name used"
 msgid "Layout <b>%1</b> is already used, please provide a different name..."
-msgstr "Rozloženie <b>%0</b> sa už používa. Prosím, poskytnite iný názov..."
+msgstr "Layout <b>%1</b> is already used, please provide a different name..."
 
 #: app/settings/settingsdialog/layoutsmodel.cpp:338
 #, kde-format
@@ -1739,16 +1740,16 @@ msgstr ""
 "rozloženie..."
 
 #: app/settings/settingsdialog/tablayoutshandler.cpp:443
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "settings:layout added successfully"
 msgid "Layout <b>%1</b> added successfully..."
-msgstr "Rozloženie <b>%0</b> bolo úspešne pridané..."
+msgstr "Layout <b>%1</b> added successfully..."
 
 #: app/settings/settingsdialog/tablayoutshandler.cpp:479
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "settings:layout downloaded successfully"
 msgid "Layout <b>%1</b> downloaded successfully..."
-msgstr "Rozloženie <b>%0</b> bolo úspešne prevzaté..."
+msgstr "Layout <b>%1</b> downloaded successfully..."
 
 #: app/settings/settingsdialog/tablayoutshandler.cpp:505
 #, kde-format
@@ -1788,10 +1789,10 @@ msgstr "Latte Dock Layout súbor v0.2"
 
 #: app/settings/settingsdialog/tablayoutshandler.cpp:561
 #: app/settings/settingsdialog/tablayoutshandler.cpp:780
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "settings:layout imported successfully"
 msgid "Layout <b>%1</b> imported successfully..."
-msgstr "Rozloženie: <b>%2</b> úspešne importované<br>"
+msgstr "Layout <b>%1</b> imported successfully..."
 
 #: app/settings/settingsdialog/tablayoutshandler.cpp:565
 #, kde-format
@@ -1817,16 +1818,16 @@ msgid "Latte Dock Layout file v0.2"
 msgstr "Latte Dock Layout súbor v0.2"
 
 #: app/settings/settingsdialog/tablayoutshandler.cpp:639
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "settings:layout export fail"
 msgid "Layout <b>%1</b> export <b>failed</b>..."
-msgstr "Rozloženie: <b>%2</b> úspešne importované<br>"
+msgstr "Layout <b>%1</b> export <b>failed</b>..."
 
 #: app/settings/settingsdialog/tablayoutshandler.cpp:678
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "settings:layout export success"
 msgid "Layout <b>%1</b> export succeeded..."
-msgstr "Rozloženie: <b>%2</b> úspešne importované<br>"
+msgstr "Layout <b>%1</b> export succeeded..."
 
 #: app/settings/settingsdialog/tablayoutshandler.cpp:769
 #, kde-format
@@ -1899,10 +1900,10 @@ msgstr ""
 "potvrdenie."
 
 #: app/settings/viewsdialog/viewscontroller.cpp:665
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "error id and title"
 msgid "<b>Error #%1: %2</b> <br/>"
-msgstr "Chyba"
+msgstr "<b>Error #%1: %2</b> <br/>"
 
 #: app/settings/viewsdialog/viewscontroller.cpp:667
 #, kde-format
@@ -1962,10 +1963,10 @@ msgid "&nbsp;&nbsp;4. Remove this layout totally<br/>"
 msgstr "4. Úplne odstráňte toto rozloženie<br/>"
 
 #: app/settings/viewsdialog/viewscontroller.cpp:702
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "error id and title"
 msgid "<b>Error #%1: %2</b> <br/><br/>"
-msgstr "Chyba"
+msgstr "<b>Error #%1: %2</b> <br/><br/>"
 
 #: app/settings/viewsdialog/viewscontroller.cpp:703
 #, kde-format
@@ -2023,10 +2024,10 @@ msgstr "2. Úplne odstráňte toto rozloženie<br/>"
 
 #: app/settings/viewsdialog/viewscontroller.cpp:757
 #: app/settings/viewsdialog/viewscontroller.cpp:814
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "warning id and title"
 msgid "<b>Warning #%1: %2</b> <br/><br/>"
-msgstr "1 upozornenie"
+msgstr "<b>Warning #%1: %2</b> <br/><br/>"
 
 #: app/settings/viewsdialog/viewscontroller.cpp:758
 #, kde-format
@@ -2165,10 +2166,10 @@ msgid "Export selected dock or panel at your system"
 msgstr "Exportovať vybraté rozloženie alebo kompletnú konfiguráciu do súboru"
 
 #: app/settings/viewsdialog/viewshandler.cpp:305
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "settings:dock/panel added successfully"
 msgid "<b>%1</b> added successfully..."
-msgstr "Kompletná konfigurácia úspešne exportovaná"
+msgstr "<b>%1</b> added successfully..."
 
 #: app/settings/viewsdialog/viewshandler.cpp:328
 #: app/settings/viewsdialog/viewshandler.cpp:407
@@ -2197,16 +2198,16 @@ msgid "Latte Dock/Panel file v0.2"
 msgstr "Latte Dock Layout súbor v0.2"
 
 #: app/settings/viewsdialog/viewshandler.cpp:360
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "settings:view export fail"
 msgid "Export in file <b>%1</b> <b>failed</b>..."
-msgstr "Rozloženie: <b>%2</b> úspešne importované<br>"
+msgstr "Exportovať in file <b>%1</b> <b>failed</b>..."
 
 #: app/settings/viewsdialog/viewshandler.cpp:389
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "settings:view export success"
 msgid "Export in file <b>%1</b> succeeded..."
-msgstr "Rozloženie: <b>%2</b> úspešne importované<br>"
+msgstr "Exportovať in file <b>%1</b> succeeded..."
 
 #: app/settings/viewsdialog/viewshandler.cpp:431
 #, kde-format
@@ -2226,10 +2227,10 @@ msgid "Latte Dock or Panel file v0.2"
 msgstr "Latte Dock Layout súbor v0.2"
 
 #: app/settings/viewsdialog/viewshandler.cpp:512
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "<layout name> Docks/Panels"
 msgid "%1 Docks/Panels"
-msgstr "Doky/Panely"
+msgstr "%1 Docks/Panels"
 
 #: app/settings/viewsdialog/viewshandler.cpp:524
 #, kde-format
@@ -2366,10 +2367,10 @@ msgstr "Zahŕňa"
 
 #: app/settings/viewsdialog/viewsmodel.cpp:762
 #: app/settings/viewsdialog/viewsmodel.cpp:848
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "unknown screen"
 msgid "Unknown : [%1]"
-msgstr "Neznáme"
+msgstr "Unknown : [%1]"
 
 #: app/settings/viewsdialog/viewsmodel.cpp:842
 #, kde-format
@@ -2552,16 +2553,16 @@ msgid "General"
 msgstr "Všeobecné"
 
 #: shell/package/contents/configuration/LatteDockConfiguration.qml:140
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "view settings width scale"
 msgid "Width %1%"
-msgstr "Šírka"
+msgstr "Width %1%"
 
 #: shell/package/contents/configuration/LatteDockConfiguration.qml:141
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "view settings width scale"
 msgid "Width %1% / Height %2%"
-msgstr "šírka a výška"
+msgstr "Width %1% / Height %2%"
 
 #: shell/package/contents/configuration/LatteDockConfiguration.qml:245
 #, kde-format
@@ -2585,10 +2586,10 @@ msgid "Effects"
 msgstr "Efekty"
 
 #: shell/package/contents/configuration/LatteDockConfiguration.qml:347
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "tasks header and index"
 msgid "Tasks <%1>"
-msgstr "Úlohy"
+msgstr "Tasks <%1>"
 
 #: shell/package/contents/configuration/LatteDockConfiguration.qml:347
 #, kde-format
@@ -3770,9 +3771,9 @@ msgid "Install indicators from KDE Online Store or local files"
 msgstr "Inštalovať indikátory z KDE online obchodu alebo lokálnych súborov"
 
 #: shell/package/contents/controls/CustomIndicatorButton.qml:19
-#, fuzzy, kde-format
+#, kde-format
 msgid "Use %1 style for your indicators"
-msgstr "Obrátiť"
+msgstr "Use %1 style for your indicators"
 
 #: shell/package/contents/controls/CustomIndicatorButton.qml:114
 #, kde-format
@@ -3865,30 +3866,18 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "Theme"
 #~ msgstr "Téma"
 
-#
-#~| msgid "Plasma"
 #~ msgctxt "plasma theme colors"
 #~ msgid "Plasma"
 #~ msgstr "Plasma"
 
-#
-#~| msgctxt "right edge"
-#~| msgid "Right"
 #~ msgctxt "light theme colors"
 #~ msgid "Light"
 #~ msgstr "Vpravo"
 
-#
-#~| msgctxt ""
-#~| "reverse the position of the active indicator e.g. from bottom to top"
-#~| msgid "Reverse"
 #~ msgctxt "reverse plasma theme colors"
 #~ msgid "Reverse"
 #~ msgstr "Obrátiť"
 
-#
-#~| msgctxt "import-done"
-#~| msgid "Layout: <b>%0</b> imported successfully<br>"
 #~ msgid "Layout <b>%1</b> imported successfully..."
 #~ msgid_plural "Layouts <b>%2</b> imported successfully..."
 #~ msgstr[0] "Rozloženie: <b>%2</b> úspešne importované<br>"
@@ -3901,27 +3890,16 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "Download"
 #~ msgstr "Prevziať"
 
-#
-#~| msgid "Activating layout: <b>%0</b> ..."
 #~ msgid "Activating layouts: <b>%0</b> ..."
 #~ msgstr "Aktivujem rozloženie <b>%2</b> ..."
 
-#
-#~| msgctxt "import-done"
-#~| msgid "Layout: <b>%0</b> imported successfully<br>"
 #~ msgid "Layouts <b>%0</b> imported successfully..."
 #~ msgstr "Rozloženie: <b>%2</b> úspešne importované<br>"
 
-#
-#~| msgctxt "import-done"
-#~| msgid "Layout: <b>%0</b> imported successfully<br>"
 #~ msgctxt "settings:layout imported successfully"
 #~ msgid "Layout <b>%0</b> imported successfully..."
 #~ msgstr "Rozloženie: <b>%2</b> úspešne importované<br>"
 
-#
-#~| msgctxt "import-done"
-#~| msgid "Layout: <b>%0</b> imported successfully<br>"
 #~ msgctxt "settings:layouts imported successfully"
 #~ msgid "Layouts <b>%0</b> imported successfully..."
 #~ msgstr "Rozloženie: <b>%2</b> úspešne importované<br>"
@@ -3933,20 +3911,12 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "Yes"
 #~ msgstr "Áno"
 
-#
-#~| msgid "None"
 #~ msgid "No"
 #~ msgstr "Žiadne"
 
-#
-#~| msgid "Layout"
 #~ msgid "Open Layout"
 #~ msgstr "Rozloženie"
 
-#
-#~| msgid ""
-#~| "The layout(s) <b>%0</b> have <i>broken configuration</i>!!! Please "
-#~| "<b>remove them</b> to improve the system stability..."
 #~ msgctxt "settings:broken layout"
 #~ msgid ""
 #~ "Layout <b>%0</b> <i>is broken</i>! Please <b>remove</b> it to improve "
@@ -3955,10 +3925,6 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ "Rozloženie(a) <b>%0</b> majú <i>chýbnú konfiguráciu</i>!!! Prosím "
 #~ "<b>odstránte ich</b> na zlepšenie stability systému..."
 
-#
-#~| msgid ""
-#~| "The layout(s) <b>%0</b> have <i>broken configuration</i>!!! Please "
-#~| "<b>remove them</b> to improve the system stability..."
 #~ msgctxt "settings:broken layouts"
 #~ msgid ""
 #~ "Layouts <b>%0</b> <i>are broken</i>! Please <b>remove</b> them to improve "
@@ -3967,9 +3933,6 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ "Rozloženie(a) <b>%0</b> majú <i>chýbnú konfiguráciu</i>!!! Prosím "
 #~ "<b>odstránte ich</b> na zlepšenie stability systému..."
 
-#
-#~| msgctxt "download layout"
-#~| msgid "&Download..."
 #~ msgid "Download..."
 #~ msgstr "&Prevziať..."
 
@@ -4002,8 +3965,6 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "Copy selected layout"
 #~ msgstr "Kopírovať vybraté rozloženie"
 
-#
-#~| msgid "Move to: %0"
 #~ msgid "Move to %0"
 #~ msgstr "Presunúť do: %0"
 
@@ -4051,16 +4012,10 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "&Pause"
 #~ msgstr "&Pozastaviť"
 
-#
-#~| msgctxt "dock settings window scale"
-#~| msgid "Window scale at %0%"
 #~ msgctxt "view settings width scale"
 #~ msgid "Width scale at %0%"
 #~ msgstr "Škálovanie okna na %0%"
 
-#
-#~| msgctxt "dock settings window scale"
-#~| msgid "Window scale at %0%"
 #~ msgctxt "view settings height scale"
 #~ msgid "Height scale at %0%"
 #~ msgstr "Škálovanie okna na %0%"
@@ -4073,8 +4028,6 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "Effects"
 #~ msgstr "Efekty"
 
-#
-#~| msgid "Dynamic Background"
 #~ msgid "Enable/disable thickness margins"
 #~ msgstr "Dynamické Pozadie"
 
@@ -4105,10 +4058,6 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "Style"
 #~ msgstr "Štýl"
 
-#
-#~| msgctxt ""
-#~| "reverse the position of the active indicator e.g. from bottom to top"
-#~| msgid "Reverse"
 #~ msgid "Use Latte style for your indicators"
 #~ msgstr "Obrátiť"
 
@@ -4120,16 +4069,12 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "Layout"
 #~ msgstr "Rozloženie"
 
-#
-#~| msgid "Add launchers only in the corresponding area"
 #~ msgid "Add launchers only in the Tasks Area"
 #~ msgstr "Pridávať spúšťače iba na miesto na to určené"
 
 #~ msgid "Switching to layout <b>%0</b> ..."
 #~ msgstr "Prepínam na rozloženie <b>%0</b> ..."
 
-#
-#~| msgid "Alternative"
 #~ msgctxt "alternative layout"
 #~ msgid "Alternative"
 #~ msgstr "Alternatívne"
@@ -4153,9 +4098,6 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "Shared To"
 #~ msgstr "Zdieľané s"
 
-#
-#~| msgctxt "column for layout to show which activities is assigned to"
-#~| msgid "Activities"
 #~ msgid "Active"
 #~ msgstr "Aktivity"
 
@@ -4165,14 +4107,9 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "Extended"
 #~ msgstr "Rozšírené"
 
-#
-#~| msgid "Color"
 #~ msgid "Color..."
 #~ msgstr "Farba"
 
-#
-#~| msgctxt "latte indicator style"
-#~| msgid "Latte"
 #~ msgid "Latte"
 #~ msgstr "Latte"
 
@@ -4180,9 +4117,6 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "Configure..."
 #~ msgstr "Nastaviť..."
 
-#
-#~| msgid ""
-#~| "Enable/Disable the mouse wheel actions in order to cycle through tasks"
 #~ msgid "Enable/Disable the mouse wheel action"
 #~ msgstr "Povoliť/Zakázať akcie kolieska myši na prechádzanie úlohami"
 
@@ -4196,9 +4130,6 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "Latte Dock Full Configuration file (v0.1, v0.2)"
 #~ msgstr "Latte Dock súbor Kompletnej Konfigurácie (v0.1, v0.2)"
 
-#
-#~| msgctxt "import-done"
-#~| msgid "Layout: <b>%0</b> imported successfully<br>"
 #~ msgctxt "settings:layout imported successfully"
 #~ msgid "<b>%0</b> was imported successfully..."
 #~ msgstr "Rozloženie: <b>%2</b> úspešne importované<br>"
@@ -4260,8 +4191,6 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "&Edit..."
 #~ msgstr "Upraviť..."
 
-#
-#~| msgid "Interaction"
 #~ msgctxt "layout information"
 #~ msgid "&Information..."
 #~ msgstr "Interakcia"
@@ -4302,23 +4231,15 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "Paddings"
 #~ msgstr "Výplne"
 
-#
-#~| msgid "Show a dot indicator for active tasks/applets"
 #~ msgid "Show indicators for applets"
 #~ msgstr "Zobraziť bodový indikátor pre aktívne úlohy-applety"
 
-#
-#~| msgid "Show a dot indicator for active tasks/applets"
 #~ msgid "Indicators are shown for applets"
 #~ msgstr "Zobraziť bodový indikátor pre aktívne úlohy-applety"
 
-#
-#~| msgid "Active Indicator"
 #~ msgid "%0 Indicator Options"
 #~ msgstr "Aktívny Indikátor"
 
-#
-#~| msgid "Remove Tasks Applet"
 #~ msgid "Remove Latte Tasks Applet"
 #~ msgstr "Odstrániť applet úloh"
 
@@ -4331,8 +4252,6 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "About Latte"
 #~ msgstr "O Latte"
 
-#
-#~| msgid "Show Latte Settings"
 #~ msgid "Show Latte View"
 #~ msgstr "Zobraziť Latte Nastavenia"
 
@@ -4342,45 +4261,25 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "Select image..."
 #~ msgstr "Vybrať obrázok..."
 
-#
-#~| msgid ""
-#~| "Reverse the position of the active indicator e.g. from bottom to top"
 #~ msgid "Reverse indicator style"
 #~ msgstr "Otočiť umiestnenie aktívneho indikátora napr. zdola nahor"
 
-#
-#~| msgid ""
-#~| "Reverse the position of the active indicator e.g. from bottom to top"
 #~ msgid "Reverse indicator style e.g. from bottom to top"
 #~ msgstr "Otočiť umiestnenie aktívneho indikátora napr. zdola nahor"
 
-#
-#~| msgid "Background"
 #~ msgid "Background roundness"
 #~ msgstr "Pozadie"
 
-#
-#~| msgctxt "active indicator only to in-house latte applets"
-#~| msgid "Internals"
 #~ msgid "Internal"
 #~ msgstr "Interné"
 
-#
-#~| msgid "Unity"
 #~ msgctxt "unity indicator style"
 #~ msgid "Unity"
 #~ msgstr "Unity"
 
-#
-#~| msgctxt ""
-#~| "reverse the position of the active indicator e.g. from bottom to top"
-#~| msgid "Reverse"
 #~ msgid "Use Unity style for your indicators"
 #~ msgstr "Obrátiť"
 
-#
-#~| msgctxt "column for layout to show which activities is assigned to"
-#~| msgid "Activities"
 #~ msgctxt "active indicator style"
 #~ msgid "Style For Active"
 #~ msgstr "Aktivity"
@@ -4389,8 +4288,6 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "Line"
 #~ msgstr "Čiara"
 
-#
-#~| msgid "Show a line indicator for active tasks/applets"
 #~ msgid "Show a line indicator for active items"
 #~ msgstr "Zobraziť čiarový indikátor pre aktívne úlohy-applety"
 
@@ -4398,22 +4295,15 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "Dot"
 #~ msgstr "Bodka"
 
-#
-#~| msgid "Show a dot indicator for active tasks/applets"
 #~ msgid "Show a dot indicator for active items"
 #~ msgstr "Zobraziť bodový indikátor pre aktívne úlohy-applety"
 
 #~ msgid "Glow"
 #~ msgstr "Žiara"
 
-#
-#~| msgid "Applet shadows"
 #~ msgid "Enable/disable indicator glow"
 #~ msgstr "Tiene appletu"
 
-#
-#~| msgctxt "column for layout to show which activities is assigned to"
-#~| msgid "Activities"
 #~ msgctxt "glow only to active task/applet indicators"
 #~ msgid "On Active"
 #~ msgstr "Aktivity"
@@ -4421,9 +4311,6 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "Add glow only to active task/applet indicator"
 #~ msgstr "Pridať žiaru iba na aktívne indikátory úloh/appletov"
 
-#
-#~| msgctxt "active indicator to all applets"
-#~| msgid "All"
 #~ msgctxt "glow to all task/applet indicators"
 #~ msgid "All"
 #~ msgstr "Všetko"
@@ -4434,11 +4321,6 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "Different color for minimized windows"
 #~ msgstr "Iná faraba pre minimalizované okná"
 
-#
-#~| msgid ""
-#~| "Grouped windows show both a line and a dot when \n"
-#~| "one of them is active and the Line Active Indicator \n"
-#~| "is enabled"
 #~ msgid ""
 #~ "Grouped windows show both a line and a dot when one of them is active and "
 #~ "the Line Active Indicator is enabled"
@@ -4450,51 +4332,30 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "ms."
 #~ msgstr "ms."
 
-#
-#~| msgid "Solid"
 #~ msgid "Solid Style"
 #~ msgstr "Plný"
 
-#
-#~| msgid "Interaction"
 #~ msgid "Duration"
 #~ msgstr "Interakcia"
 
-#
-#~| msgid "New Instance"
 #~ msgid "Instant"
 #~ msgstr "Nová inštancia"
 
 #~ msgid "Applets"
 #~ msgstr "Applety"
 
-#
-#~| msgid "Show a line indicator for active tasks/applets"
 #~ msgid "Show or hide indicators for applets"
 #~ msgstr "Zobraziť čiarový indikátor pre aktívne úlohy-applety"
 
-#
-#~| msgid "Applets Distance"
 #~ msgid "Distance"
 #~ msgstr "Vzdialenosť Appletov"
 
-#
-#~| msgctxt "active indicator only to in-house latte applets"
-#~| msgid "Internals"
 #~ msgid "External"
 #~ msgstr "Interné"
 
-#
-#~| msgid "Screen Height Proportion"
 #~ msgid "From Screen Height"
 #~ msgstr "Proporcie výšky obrazovky"
 
-#
-#~| msgid ""
-#~| "Applets size is decreased automatically when the contents \n"
-#~| "exceed the maximum length \n"
-#~| "\n"
-#~| "Hint: this option is disabled when only plasma taskmanagers are present"
 #~ msgid ""
 #~ "Items size is decreased automatically when the contents exceed the "
 #~ "maximum length \n"
@@ -4506,14 +4367,10 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ "\n"
 #~ "Tip: táto možnosť je zakázaná iba keď plasma správcovia úloh sú prítomní"
 
-#
-#~| msgid "None"
 #~ msgctxt "none glow"
 #~ msgid "None"
 #~ msgstr "Žiadne"
 
-#
-#~| msgid "Add glow to all task/applet indicators"
 #~ msgid "Do not show any glow for task/applet indicators"
 #~ msgstr "Pridať žiaru pre všetky indikátory úloh/appletov"
 
@@ -4523,15 +4380,9 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "Dynamic Background"
 #~ msgstr "Dynamické Pozadie"
 
-#
-#~| msgid "Monochrome contents when panel is transparent"
 #~ msgid "Monochrome contents when not touching any window"
 #~ msgstr "Čiernobiely obsah ak je panel priehľadný"
 
-#
-#~| msgid ""
-#~| "The panel contents are colorized in order to improve contrast \n"
-#~| "with the underlying desktop background when the panel is transparent"
 #~ msgid ""
 #~ "Contents are colorized in order to improve contrast with the underlying "
 #~ "desktop background"
@@ -4539,20 +4390,13 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ "Obsah panelu je farebný na vylepšenie kontrastu \n"
 #~ "so spodným pozadím plochy keď je panel priehľadný"
 
-#
-#~| msgid "Opacity"
 #~ msgid "Glow Opacity"
 #~ msgstr "Nepriehľadnosť"
 
-#
-#~| msgctxt "column for layout to show which activities is assigned to"
-#~| msgid "Activities"
 #~ msgctxt "active indicator style"
 #~ msgid "Active Style"
 #~ msgstr "Aktivity"
 
-#
-#~| msgid "Unify global shortcuts with applets"
 #~ msgid "Prefer this view for global shortcuts activation"
 #~ msgstr "Zjednotiť globálne skratky s appletmi"
 
@@ -4565,8 +4409,6 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "Show Dock Settings"
 #~ msgstr "Zobraziť Nastavenia Doku"
 
-#
-#~| msgid "Show indicator for audio streams"
 #~ msgid "Indicator for audio streams"
 #~ msgstr "Zobraziť indikátor pre zvukové prúdy"
 
@@ -4583,10 +4425,6 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgid "None"
 #~ msgstr "Žiadne"
 
-#
-#~| msgid ""
-#~| "Latte will not show any active applet indicator on its own\n"
-#~| " except those the plasma theme provides"
 #~ msgid ""
 #~ "Latte will not show any active applet indicator on its own except those "
 #~ "the plasma theme provides"
@@ -4594,11 +4432,6 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ "Latte nebude zobrazovať žiadne aktívne indikátory appletov sám od seba\n"
 #~ "okrem tých, ktoré poskytuje vzhľad plasma"
 
-#
-#~| msgid ""
-#~| "Latte will show active applet indicators only for applets that have been "
-#~| "adjusted\n"
-#~| " by it for hovering capabilities e.g. folderview"
 #~ msgid ""
 #~ "Latte will show active applet indicators only for applets that have been "
 #~ "adjusted by it for hovering capabilities e.g. folderview"
@@ -4615,9 +4448,6 @@ msgstr "Žiadne miniaplikáciw nie sú dostupné"
 #~ msgstr ""
 #~ "Latte bude zobrazovať indikátory aktívných appletov pre všetky applety"
 
-#
-#~| msgctxt "add glow only to active task/applet indicators"
-#~| msgid "Only On Active"
 #~ msgctxt "glow only to active task/applet indicators"
 #~ msgid "Only On Active"
 #~ msgstr "Iba pre aktívne"
