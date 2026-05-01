@@ -1,6 +1,6 @@
 # <img src="logo.png" width="48"/> Latte Dock
 
-## A customized dock. 
+## A customized latte-dock. 
 
 ## When the icons pined on dock is clicked, the icon will bounce like macOS until the app is open.
 
