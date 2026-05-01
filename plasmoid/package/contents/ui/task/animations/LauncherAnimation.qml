@@ -23,22 +23,33 @@ Item{
     Loader {
         id: launcherAnimationLoader
         source: "launcher/BounceAnimation.qml"
+
+
+
+
     }
 
     Connections {
         target: launcherAnimationLoader.item
 
         onStopped: {
-            if (!taskItem.inRemoveStage) {
-                taskItem.inBouncingAnimation = false;
-                tasksExtendedManager.removeWaitingLauncher(taskItem.launcherUrl);
-            }
 
-            taskItem.abilities.parabolic.setDirectRenderingEnabled(false);
-            clearAnimationsSignals();
+            // if (!taskItem.inRemoveStage) {
+            //     taskItem.inBouncingAnimation = false;
+            //     tasksExtendedManager.removeWaitingLauncher(taskItem.launcherUrl);
+            // }
+            //
+            // taskItem.abilities.parabolic.setDirectRenderingEnabled(false);
+            // clearAnimationsSignals();
+            //
+            // taskItem.setBlockingAnimation(false);
+            // taskItem.animationEnded();
 
-            taskItem.setBlockingAnimation(false);
-            taskItem.animationEnded();
+            launcherAnimationLoader.item.restart();
+
+
+
+
         }
     }
 
@@ -96,7 +107,7 @@ Item{
             init();
             launcherAnimationLoader.item.start();
         } else {
-            launcherAnimationLoader.item.stop();
+            // launcherAnimationLoader.item.stop();
         }
     }
 

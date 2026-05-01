@@ -183,7 +183,7 @@ SequentialAnimation{
             //! by enabling it we break the bouncing animation and the indicators launchers animations
             //taskItem.visible = true;
             taskItem.parabolicItem.opacity = 1;
-            taskItem.inAnimation = false;
+            // taskItem.inAnimation = false;
         }
     }
 

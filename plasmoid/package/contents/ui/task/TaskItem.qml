@@ -49,7 +49,8 @@ AbilityItem.BasicItem {
         return isWindow ? model.display : model.AppName;
     }
 
-    preserveIndicatorInInitialPosition: inBouncingAnimation || inAttentionBuiltinAnimation || inNewWindowBuiltinAnimation
+    // preserveIndicatorInInitialPosition: inBouncingAnimation || inAttentionBuiltinAnimation || inNewWindowBuiltinAnimation
+    preserveIndicatorInInitialPosition: false
 
     parabolicItem.isParabolicEventBlocked: root.dragSource
                                            || !hoverEnabled
@@ -69,7 +70,8 @@ AbilityItem.BasicItem {
     property bool inAttention: isDemandingAttention && plasmoid.status === PlasmaCore.Types.NeedsAttentionStatus ? true : false
 
     /*animations flags*/
-    property bool inAnimation: true
+    // property bool inAnimation: true
+    property bool inAnimation: false
     property bool inAddRemoveAnimation: true
     property bool inAttentionBuiltinAnimation: false
     property bool inBlockingAnimation: false
@@ -79,8 +81,9 @@ AbilityItem.BasicItem {
     property bool inRemoveStage: false
 
     property bool isLauncherBuiltinAnimationRunning: false
-    property bool isLauncherAnimationRunning: isLauncherBuiltinAnimationRunning
-                                              || (taskItem.abilities.indicators.info.providesTaskLauncherAnimation && isIndicatorTaskLauncherAnimationRunning)
+    // property bool isLauncherAnimationRunning: isLauncherBuiltinAnimationRunning
+    //                                           || (taskItem.abilities.indicators.info.providesTaskLauncherAnimation && isIndicatorTaskLauncherAnimationRunning)
+    property bool isLauncherAnimationRunning: false
 
     //! after clicking to show/hide preview enter events are triggered even though the should not
     property bool showPreviewsIsBlockedFromReleaseEvent: false

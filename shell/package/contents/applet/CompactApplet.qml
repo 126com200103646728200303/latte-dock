@@ -216,7 +216,8 @@ PlasmaCore.ToolTipArea {
         target: compactRepresentation ? compactRepresentation.anchors : null
         property: "horizontalCenterOffset"
         when: compactRepresentation
-        value: appletItem ? appletItem.iconOffsetX : 0
+        // value: appletItem ? appletItem.iconOffsetX : 0
+        value: appletItem.iconOffsetX
     }
 
     Binding {

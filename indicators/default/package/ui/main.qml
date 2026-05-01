@@ -85,17 +85,19 @@ LatteComponents.IndicatorItem{
             id:firstPoint
             width: stateWidth
             height: stateHeight
+
             opacity: {
                 if (indicator.isEmptySpace) {
                     return 0;
                 }
 
                 if (indicator.isTask) {
-                    return indicator.isLauncher || (indicator.inRemoving && !isAnimating) ? 0 : 1
+                    // return indicator.isLauncher || (indicator.inRemoving && !isAnimating) ? 0 : 1
+                    return !(indicator.isLauncher || (indicator.inRemoving) )
                 }
 
                 if (indicator.isApplet) {
-                    return (indicator.isActive || isAnimating) ? 1 : 0
+                    return (indicator.isActive /*|| isAnimating*/) ? 1 : 0
                 }
             }
 

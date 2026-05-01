@@ -123,16 +123,16 @@ Item {
     //property bool level.requested.isTaskLauncherAnimationRunning: false
 
     onLevelChanged: {
-        if (level) {
-            //! initialization on startup, this way when changing from indicator that changes them
-            //! at an indicator that is not using them at all, their values are restored
-            level.requested.iconOffsetX = 0;
-            level.requested.iconOffsetY = 0;
-            level.requested.iconTransformOrigin = Item.Center;
-            level.requested.iconOpacity = 1.0;
-            level.requested.iconRotation = 0;
-            level.requested.iconScale = 1.0;
-            level.requested.isTaskLauncherAnimationRunning = false;
-        }
+        // if (level) {
+        //     //! initialization on startup, this way when changing from indicator that changes them
+        //     //! at an indicator that is not using them at all, their values are restored
+        //     level.requested.iconOffsetX = 0;
+        //     level.requested.iconOffsetY = 0;
+        //     level.requested.iconTransformOrigin = Item.Center;
+        //     level.requested.iconOpacity = 1.0;
+        //     level.requested.iconRotation = 0;
+        //     level.requested.iconScale = 1.0;
+        //     level.requested.isTaskLauncherAnimationRunning = false;
+        // }
     }
 }
