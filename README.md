@@ -1,5 +1,17 @@
 # <img src="logo.png" width="48"/> Latte Dock
 
+## A customized dock. 
+
+## When the icons pined on dock is clicked, the icon will bounce like macOS until the app is open.
+
+### But when the app is open, it won't fall smoothly but will  instantly flash back to its original position instead, due to my terrible tech. It is really a little hard for a beginner who has just started getting into qml/qt 
+
+
+
+
+
+
+
 Latte is a dock based on plasma frameworks that provides an elegant and intuitive experience for your tasks and plasmoids. It animates its contents by using parabolic zoom effect and tries to be there only when it is needed.
 
 **"Art in Coffee"**
@@ -30,7 +42,7 @@ We need to use at least:
 - **Qt >= 5.15**
 
 Minimum requirements:
- 
+
 **tools:**
 ```
  bash
